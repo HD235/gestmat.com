@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css ">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <title>accueil</title>
+</head>
+<body>
+    <section class="flexbox">
+        <nav class="nav">
+            <a href="#" class="logo">Parc Informatique</a>
+            <ul class="navbar">
+            <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="21" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                                    <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                                </svg>
+                                Accueil
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="personel.html" class="nav-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                                </svg>
+                                Personnel
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="materiel.html" class="nav-link me-20">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+                                <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z"/>
+                            </svg>
+                            Materiel</a>
+                        </li>
+                
+            </ul>
+            <div class="footer">
+                <a href="inscription.html">Se deconnecter</a>
+            </div>
+        </nav>
+        <div class="contenu">
+            <div class="bloc1">
+                <h2>Accueil</h2>
+                <div class="col3">
+                    <p>9</p>
+                    
+                        <h3>Materiels</h3>
+                   
+                </div>
+                <div class="col3">
+                    <p>8</p>
+                    
+                        <h3>Personnels</h3>
+                   
+                </div>
+                <input type="search" name="s" id="" placeholder="Recherche">
+            </div>
+            
+            <div class="bloc2">
+                <div class="col6">
+                    <h2>Ajouter un nouveau Materiel</h2>
+               
+                    <form action="" method="post">
+                        <div class="col2">
+                           
+                            <div class="col1">
+                                <label for="nomM">Nom du materiel:</label>
+                                <input type="text" autocomplete="nope" id="nomM" name="nomM"  required>
+                            </div>
+                            <div class="col1">
+                                <label for="genre">Etat:</label>
+                                <select name="etat" id="etat" class="select">
+                                    <option value="fonctionnelle">Fonctionnelle</option>
+                                    <option value="non fonctionnelle">Non Fonctionnelle</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <div class="col1">
+                                <label for="marque">La Marque:</label>
+                                <input type="text" autocomplete="nope" id="marque" name="marque"  required>
+                            </div>
+                            <div class="col1">
+                                <label for="model">Model:</label>
+                                <input type="text" autocomplete="nope" id="model" name="model"  required>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <div class="col1">
+                                <label for="serie">Numéro de Série:</label>
+                                <input type="text" autocomplete="nope" id="serie" name="serie"  required>
+                            </div>
+                            <div class="col1">
+                                <label for="utilisateur">Utilisateur</label>                                
+                                <select name="utilisateur" id="utilisateur" class="select">
+                                    <option value="">Ali</option>
+                                    <option value="">Ahmat</option>
+                                    <option value="">Hamid</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- <input type="text" name="utilisateur" id="utlisateur" required> -->
+                        <div class="col2">
+                            <input type="submit" value="Ajouter"style="padding: 10px; margin: 15px; ">
+                            <input type="reset"style="padding: 10px; margin: 15px; ">
+                        </div>
+                    </form>
+                </div>
+                <div class="col">
+                    <h2>Ajouter un nouveau personnel</h2>
+                   
+                    <form action="" method="post">
+                        <div class="col2">
+                            <div class="col1">
+                                <label for="nom">Nom du personnel:</label>
+                                <input type="text" autocomplete="nope" id="nom" name="nom"  required>
+                            </div>
+                            <div class="col1">
+                                <label for="Adresse">Adresse:</label>
+                                <input type="text" style=" width: 100%; " name="adresse" id="Adresse" required>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <div class="col1">
+                                <label for="prenom">Prénom du personnel:</label>
+                                <input type="text" autocomplete="nope" id="prenom" name="prenom"  required>
+                            </div>
+                            <div class="col1">
+                                <label for="fonction">Fonction:</label>
+                                <select name="fonction" id="fonction" class="select" requered>
+                                    <option value="Directeur Géneral">Directeur Géneral</option>
+                                    <option value="Directeur Adjoinct">Directeur Adjoinct</option>
+                                    <option value="Directeur Technique">Directeur Technique</option>
+                                    <option value="Directeur Projet">Directeur Projet</option>
+                                    <option value="Developpeur">Developpeur</option>
+                                    <option value="Analyste">Analyste</option>
+                                    <option value="Secretaire">Secretaire</option>
+                                    <option value="Secretrice">Secretrice</option>
+                                    <option value="Communicateur">Communicateur</option>
+                                    <option value="Communicatrice">Communicatrice</option>
+                                    <option value="Designer">Designer</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <div class="col1">
+                                <label for="age">Age:</label>
+                                <input type="text" autocomplete="nope" id="age" name="age"  required>
+                            </div>
+                            <div class="col1">
+                                <label for="genre">Genre:</label>
+                                <select name="genre" id="genre" class="select" required>
+                                    <option value="masclin">Masculin</option>
+                                    <option value="feminin">Feminin</option>
+                                </select>
+                            </div>
+                        </div><br> <br>
+                        <br>
+                       
+                        <div class="col2">
+                            <input type="submit" value="Ajouter" style="padding: 10px; margin: 25px; " >
+                            <input type="reset" style="padding: 10px; margin: 25px; ">
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>
